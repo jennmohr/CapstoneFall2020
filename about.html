@@ -15,6 +15,12 @@
             filter: invert(70%);
         }
 
+        #brand {
+            filter: invert(100%);
+            margin-right: 10px;
+        }
+
+
             .nav img:hover {
                 filter: invert(90%);
             }
@@ -22,6 +28,13 @@
         .row .card {
             margin-left: 25px;
         }
+
+    @font-face { font-family: 'apercu-medium'; src: url('Apercu Medium.otf'); font-style: normal; }
+
+    body{
+        font-family: apercu-medium;
+    }
+
     </style>
     <title>Jennifer Mohr</title>
     <link rel="icon" href="images/favicon.ico">
@@ -31,6 +44,10 @@
 
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
         <div id="navbar" class="navbar-collapse collapse">
+            <a class="navbar-brand" href="#">
+                <img src="images/halloween-ghost.svg" width="30" height="30" class="d-inline-block align-top" id="brand">
+                Jennifer Mohr
+            </a>
             <ul class="nav navbar-nav">
                 <li>
                     <a href="index.html" class="nav-link">Home</a>
